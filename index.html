@@ -1,10 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wengerfarms Camping</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.19.3/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.3/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.3/dist/js/uikit-icons.min.js"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
+
+<div class="top-banner uk-text-center uk-text-bold uk-light">
+    >>> WILLKOMMEN ZURÜCK IN DER NATUR - Bei Wengerfarms Camping >>>
+</div>
+
+<div class="mobile-header uk-hidden@m">
+    <a class="uk-navbar-toggle" uk-toggle="target: #mobile-nav" href="#">
+        <span uk-navbar-toggle-icon></span>
+    </a>
+    <img src="assets/images/WF_Aquarelle_web_gross.png" alt="Logo" />
+    <a href="#" class="uk-icon-link" uk-icon="icon: cart"></a>
+</div>
+
+<header class="uk-background-muted uk-padding-remove uk-visible@m">
+    <div class="uk-container uk-container-expand uk-flex uk-flex-middle uk-flex-between" style="padding: 20px 40px;">
+        <a href="#">
+            <img src="assets/images/WF_Aquarelle_web_gross.png" alt="Logo" />
+        </a>
+
+        <nav>
+            <ul class="uk-navbar-nav uk-flex uk-flex-right">
+                <li><a href="#">Start</a></li>
+                <li><a href="#">Stellplätze</a></li>
+                <li><a href="#">Bauwagen</a></li>
+                <li><a href="#">Medien</a></li>
+                <li><a href="#">Über Uns</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#">Anmelden</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div id="mobile-nav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar uk-background-default">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+        <ul class="uk-nav uk-nav-default">
+            <li><a href="#">Start</a></li>
+            <li><a href="#">Stellplätze</a></li>
+            <li><a href="#">Bauwagen</a></li>
+            <li><a href="#">Medien</a></li>
+            <li><a href="#">Über Uns</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </div>
+</div>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+
+        <div class="uk-text-center uk-margin-large-bottom">
+            <a href="https://wengerfarms.ch" target="_blank" class="button-wenger">
+                Direkt zu Wengerfarms
+            </a>
+        </div>
+
+        <h1 class="uk-heading-line uk-text-center"><span>Wenger Farms Camping</span></h1>
+
+        <hr>
+
+        <h2>Stellplätze mieten für Camper & Naturfreunde</h2>
+        <p>Erlebe die Natur hautnah auf unseren liebevoll gepflegten Stellplätzen.</p>
+        <img src="assets/images/WF_Aquarelle_web_gross.png" alt="Stellplätze" class="content-image uk-margin-medium-bottom uk-border-rounded">
+
+        <hr>
+
+        <h2>Bauwagen mieten</h2>
+        <p>Entdecke das besondere Erlebnis in unseren gemütlichen Bauwagen.</p>
+        <img src="assets/images/WF_Aquarelle_web_gross.png" alt="Bauwagen" class="content-image uk-margin-medium-bottom uk-border-rounded">
+
+        <hr>
+
+        <h2>Folge uns auf Social Media</h2>
+        <div class="uk-flex uk-flex-center uk-flex-middle uk-child-width-auto uk-grid-small uk-margin-top" uk-grid>
+            <div><a href="https://www.instagram.com/wengerfarms" target="_blank" uk-icon="icon: instagram; ratio: 1.5"></a></div>
+            <div><a href="mailto:info@wengerfarms.ch" uk-icon="icon: mail; ratio: 1.5"></a></div>
+            <div><a href="https://www.facebook.com/wengerfarms" target="_blank" uk-icon="icon: facebook; ratio: 1.5"></a></div>
+        </div>
+
+    </div>
+</main>
+
+<footer class="footer uk-section uk-section-secondary uk-light">
+    <div class="uk-container uk-text-center">
+        <img src="assets/images/WF_Aquarelle_web_gross.png" alt="Logo" />
+        <p>© <strong>Wengerfarms</strong> 2025</p>
+    </div>
+</footer>
 
 </body>
 </html>
