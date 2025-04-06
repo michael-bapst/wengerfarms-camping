@@ -6,6 +6,7 @@ html, body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    color: #54744b;
 }
 
 main {
@@ -69,17 +70,21 @@ main {
 }
 
 .uk-offcanvas-bar .uk-nav-default li a {
-    color: #111111;
+    color: #54744b;
     font-weight: 600;
     font-size: 16px;
     padding: 10px 0;
     display: block;
 }
 
+h1, h2, h3, h4, h5, h6, p, a {
+    color: #54744b;
+}
+
 .footer {
     padding: 20px 0;
     margin-top: auto;
-    background-color: #1e1e1e;
+    background-color: #54744b;
     text-align: center;
 }
 

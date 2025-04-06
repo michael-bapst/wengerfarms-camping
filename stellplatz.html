@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stellplatz buchen – Wengerfarms</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.19.3/dist/css/uikit.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.3/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.3/dist/js/uikit-icons.min.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<div class="top-banner uk-text-center uk-text-bold uk-light">
+  >>> WILLKOMMEN ZURÜCK IN DER NATUR - Bei Wengerfarms Camping >>>
+</div>
+
+<div class="mobile-header uk-hidden@m">
+  <a class="uk-navbar-toggle" uk-toggle="target: #mobile-nav" href="#"><span uk-navbar-toggle-icon></span></a>
+  <img src="assets/images/WF_Aquarelle_web_gross.png" alt="Logo" />
+  <a href="#" class="uk-icon-link" uk-icon="icon: cart"></a>
+</div>
+
+<header class="uk-background-muted uk-padding-remove uk-visible@m">
+  <div class="uk-container uk-container-expand uk-flex uk-flex-between uk-flex-middle header-container">
+    <a href="index.html">
+      <img src="assets/images/WF_Aquarelle_web_gross.png" alt="Logo" />
+    </a>
+    <nav>
+      <ul class="uk-navbar-nav uk-flex">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="stellplatz.html">Stellplätze</a></li>
+        <li><a href="bauwagen.html">Bauwagen</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div id="mobile-nav" uk-offcanvas="overlay: true">
+  <div class="uk-offcanvas-bar">
+    <button class="uk-offcanvas-close" type="button" uk-close></button>
+    <ul class="uk-nav uk-nav-default">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="stellplatz.html">Stellplätze</a></li>
+      <li><a href="bauwagen.html">Bauwagen</a></li>
+    </ul>
+  </div>
+</div>
+
+<main class="uk-section uk-section-default">
+  <div class="uk-container uk-text-center">
+    <h1 class="uk-heading-line"><span>Stellplatz buchen</span></h1>
+    <p>Hier kannst du direkt einen Stellplatz reservieren.</p>
+
+    <div class="uk-card uk-card-default uk-card-body uk-margin-large-top uk-width-1-1 uk-width-2xlarge@m uk-margin-auto">
+      <iframe
+              src="https://calendar.google.com/calendar/embed?src=de.german%23holiday%40group.v.calendar.google.com&ctz=Europe%2FZurich"
+              style="border: 0;"
+              width="100%"
+              height="600"
+              frameborder="0"
+              scrolling="no">
+      </iframe>
+    </div>
+  </div>
+</main>
+
+<footer class="footer uk-section uk-light">
+  <div class="uk-container uk-text-center">
+    <img src="assets/images/WF_Aquarelle_web_gross.png" alt="Logo" />
+    <p>© <strong>Wengerfarms</strong> 2025</p>
+  </div>
+</footer>
+
+</body>
+</html>
